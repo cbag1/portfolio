@@ -1,0 +1,65 @@
+.serviceTitle {
+  padding: 3% 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.serviceTitle h3 {
+  text-transform: uppercase;
+  color: #eda751;
+  font-weight: 600;
+}
+
+.serviceTitle h4 {
+  font-size: 2.4em;
+  font-weight: 500;
+}
+
+.serviceTitle p {
+  width: 40%;
+  text-align: center;
+}
+
+.contentService {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding-bottom: 100px;
+}
+
+.contentService .cservice {
+  width: 20%;
+  border-radius: 10px;
+  /* background-color: red; */
+  border: 2px solid #eda751;
+  text-align: center;
+  padding: 80px 80px;
+}
+
+.contentService .cservice .iconService {
+  font-size: 7em;
+  /* padding-top: 100px; */
+}
+
+.contentService .cservice h3 {
+    font-size: 1.2em;
+    font-weight: 600;
+}
+
+.cservice{
+    transition: 1.2s;
+}
+
+.cservice:hover {
+    background-color: #eda751;
+    margin: 0 50px;
+
+    transform: scale(1.2);
+
+}
+
+.cservice:hover * {
+    color: white;
+}

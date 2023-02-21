@@ -1,0 +1,55 @@
+
+
+.aboutContent {
+  display: flex;
+  padding: 3%  20%;
+  justify-content: space-around;
+  text-align: justify;
+  padding-top: 3%;
+
+  background-color: #fff2e1;
+}
+
+.aboutContent .photo {
+  width: 350px;
+  height: 400px;
+  box-shadow: rgb(3, 3, 3) 0px 0px 0px 2px inset,
+    rgb(255, 255, 255) 10px -10px 0px -3px, #EDA751 10px -10px;
+
+  background: url("../assets/images/photo_with_bg.jpg") no-repeat;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -ms-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.aboutContent .detail {
+  width: 50%;
+}
+
+
+.aboutContent .detail h3 {
+    font-size: 2.4em;
+    font-weight: 500;
+    padding-top: 2%;
+  }
+
+  .aboutContent .detail .trait {
+    margin-top: 2px;
+    width: 20%;
+    border: 1px solid #eda751;
+  }
+
+
+  .aboutContent .detail .detailText{
+    margin-top: 10%;
+  }
+
+
+
+
+  .aboutContent .detail .detailText p {
+    margin-top: 20px;
+  }

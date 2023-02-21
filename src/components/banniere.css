@@ -1,0 +1,19 @@
+.banniere {
+  background: url("../assets/images/cbag.jpg") no-repeat;
+  background-position: 10% 26%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -ms-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.name {
+  margin-left: 20%;
+  font-size: 2.3em;
+  font-weight: 700;
+  -webkit-text-stroke: 1px #EDA751;
+  text-shadow: 2px 3px 0px #EDA751;
+}
+
+
