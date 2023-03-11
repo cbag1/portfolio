@@ -35,31 +35,97 @@
   /* background-color: red; */
   border: 2px solid #eda751;
   text-align: center;
-  padding: 80px 80px;
+  padding: 3% 4%;
 }
 
 .contentService .cservice .iconService {
-  font-size: 7em;
+  font-size: 7vw;
   /* padding-top: 100px; */
 }
 
 .contentService .cservice h3 {
-    font-size: 1.2em;
-    font-weight: 600;
+  font-size: 1vw;
+  font-weight: 600;
 }
 
-.cservice{
-    transition: 1.2s;
+.contentService .cservice h4 {
+  font-size: 0.8vw;
+}
+
+.cservice {
+  transition: 1.2s;
 }
 
 .cservice:hover {
-    background-color: #eda751;
-    margin: 0 50px;
+  background-color: #eda751;
+  margin: 0 50px;
 
-    transform: scale(1.2);
-
+  transform: scale(1.2);
 }
 
 .cservice:hover * {
-    color: white;
+  color: white;
+}
+
+@media screen and (max-width: 780px) {
+  .contentService {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contentService .cservice {
+    width: 80vw;
+    height: 26vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* padding: 10000px 0; */
+    border-radius: 10px;
+    /* background-color: red; */
+    border: 2px solid #eda751;
+    text-align: center;
+    padding: 3% 4%;
+  }
+
+  .contentService .cservice .iconService {
+    font-size: 15vw;
+    /* padding-top: 100px; */
+  }
+
+  .contentService .cservice h3 {
+    font-size: 20px;
+    font-weight: 600;
+  }
+
+  .contentService .cservice h4 {
+    font-size: 15px;
+  }
+
+  .serviceTitle {
+    /* padding: 3% 0; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .serviceTitle h3 {
+    text-transform: uppercase;
+    color: #eda751;
+    font-weight: 600;
+  
+  }
+
+  .serviceTitle h4 {
+    font-size: 30px;
+    font-weight: 500;
+  }
+
+  .serviceTitle p {
+    margin: 10px 0;
+    width: 100%;
+    font-size: 14px;
+    text-align: center;
+  }
 }

@@ -2,6 +2,8 @@ import React from "react";
 import "./Service.css";
 
 function Service() {
+
+  
   return (
     <div className="service">
       <div className="serviceTitle">
@@ -9,12 +11,11 @@ function Service() {
         <h4> Qu'est ce que je fais !</h4>
         <p>
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus
-          repudiandae incidunt praesentium aut, iste harum nihil ipsa facere
-          minus debitis quia recusandae.
+          repudiandae incidunt praesentium aut.
         </p>
       </div>
       <div className="contentService">
-        <div className=" cservice">
+        <div className=" cservice animate__animated animate__bounce" >
           <span className="iconService">
             <i class="fa fa-desktop" aria-hidden="true"></i>
           </span>
@@ -34,7 +35,7 @@ function Service() {
           <span className="iconService">
             <i class="fa fa-user-secret"></i>
           </span>
-          <h3>Cheri Aida DIALLO</h3>
+          <h3> Un peu de DEVOPS</h3>
           <h4>+200 Projets Realisés</h4>
         </div>
       </div>

@@ -1,0 +1,10 @@
+@media screen and (max-width: 780px) {
+  .list_menu {
+    display: none;
+  }
+
+  .navbar {
+    padding: 0;
+    
+  }
+}

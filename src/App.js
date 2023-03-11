@@ -4,6 +4,7 @@ import Navbar from './components/Navbar';
 import Banniere from './components/banniere';
 import About from './components/About';
 import Service from './components/Service';
+import Work from './components/Work';
 
 function App() {
 
@@ -16,6 +17,8 @@ function App() {
         <About></About>
 
         <Service></Service>
+
+        <Work/>
       </main>
     </>
   )

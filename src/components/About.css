@@ -1,8 +1,6 @@
-
-
 .aboutContent {
   display: flex;
-  padding: 3%  20%;
+  padding: 3% 20%;
   justify-content: space-around;
   text-align: justify;
   padding-top: 3%;
@@ -11,10 +9,10 @@
 }
 
 .aboutContent .photo {
-  width: 350px;
-  height: 400px;
+  width: 18vw;
+  height: 45vh;
   box-shadow: rgb(3, 3, 3) 0px 0px 0px 2px inset,
-    rgb(255, 255, 255) 10px -10px 0px -3px, #EDA751 10px -10px;
+    rgb(255, 255, 255) 10px -10px 0px -3px, #eda751 10px -10px;
 
   background: url("../assets/images/photo_with_bg.jpg") no-repeat;
   background-position: center center;
@@ -29,27 +27,29 @@
   width: 50%;
 }
 
-
 .aboutContent .detail h3 {
-    font-size: 2.4em;
-    font-weight: 500;
-    padding-top: 2%;
+  font-size: 2.4em;
+  font-weight: 500;
+  padding-top: 2%;
+}
+
+.aboutContent .detail .trait {
+  margin-top: 2px;
+  width: 20%;
+  border: 1px solid #eda751;
+}
+
+.aboutContent .detail .detailText {
+  margin-top: 10%;
+}
+
+.aboutContent .detail .detailText p {
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 780px) {
+  .aboutContent {
+    flex-direction: column;
+    padding: 2% 20%;
   }
-
-  .aboutContent .detail .trait {
-    margin-top: 2px;
-    width: 20%;
-    border: 1px solid #eda751;
-  }
-
-
-  .aboutContent .detail .detailText{
-    margin-top: 10%;
-  }
-
-
-
-
-  .aboutContent .detail .detailText p {
-    margin-top: 20px;
-  }
+}

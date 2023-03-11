@@ -1,12 +1,13 @@
 import React from "react";
+import "./Navbar.css";
 
 function Navbar() {
   return (
-    <nav className="flex justify-between items-center px-40 py-5 cursor-pointer">
+    <nav className=" navbar flex justify-between items-center px-40 py-5 cursor-pointer">
       <header className="text-[#EDA751] font-bold text-lg">
         Cheikh Babacar GOUDIABY
       </header>
-      <ul className="flex  gap-10">
+      <ul className="flex  list_menu gap-10">
         <li>Home</li>
         <li>About</li>
         <li>Projects</li>
